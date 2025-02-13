@@ -5,3 +5,25 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
+
+/* InfoBox 전체 스타일
+.cesium-infoBox {
+  background-color: rgba(255, 94, 94, 0.8);
+  width: 300px;
+  border-radius: 8px;
+  top: 40% !important;
+  right: 30% !important;
+}
+
+ InfoBox 제목 스타일 
+.cesium-infoBox-title {
+  background: rgba(255, 94, 94, 0.8) !important;
+  padding: 10px;
+  color: white;
+}
+
+ InfoBox 내용 스타일 
+.cesium-infoBox-description {
+  padding: 15px;
+  color: white;
+} */
