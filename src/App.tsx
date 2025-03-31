@@ -1,10 +1,12 @@
 import './App.css';
-import Map from './components/Map';
+import Cesium from './components/Cesium';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <>
-      <Map />
+      <Layout />
+      <Cesium />
     </>
   );
 }
