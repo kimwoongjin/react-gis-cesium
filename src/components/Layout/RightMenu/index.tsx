@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import cctv from '@/assets/cctv.svg';
 
 import './RightMenu.css';
 
@@ -18,6 +19,7 @@ const RightMenu = () => {
         <button className="right-toggle-button" onClick={toggleSidebar}>
           {isOpen ? '▶' : '◀'}
         </button>
+        <img className="cctv-button" alt="cctv" src={cctv} />
       </div>
       <div className="right-sidebar-content"></div>
     </div>

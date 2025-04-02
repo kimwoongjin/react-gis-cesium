@@ -86,3 +86,16 @@
   background: rgba(255, 255, 255, 0.3);
   border-radius: 3px;
 }
+
+.cctv-button {
+  position: absolute;
+  left: -100px;
+  top: -5px;
+  background-color: rgba(11, 23, 32, 0);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.cctv-button:hover {
+  opacity: 0.8;
+}
