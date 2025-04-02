@@ -1,3 +1,4 @@
+import BottomMenu from './BottomMenu';
 import Headers from './Headers';
 import LeftMenu from './LeftMenu';
 import RightMenu from './RightMenu';
@@ -8,6 +9,7 @@ const Layout = () => {
       <Headers />
       <LeftMenu />
       <RightMenu />
+      <BottomMenu />
     </div>
   );
 };

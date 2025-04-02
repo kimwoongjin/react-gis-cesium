@@ -15,7 +15,7 @@ const LeftMenu = () => {
         <div className="title-container">
           <div className="diamond-icon">◆</div>
           <h3 className="left-sidebar-title">장비 목록</h3>
-          <span className="item-count">20</span>
+          <span className="item-count">0</span>
         </div>
         <button className="left-toggle-button" onClick={toggleSidebar}>
           {isOpen ? '◀' : '▶'}
