@@ -15,9 +15,12 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src'),
       '@assets': path.resolve(__dirname, './src/assets'),
+      '@provider': path.resolve(__dirname, './src/provider'),
+      '@components': path.resolve(__dirname, './src/components'),
     },
   },
   server: {
     port: 3000,
+    strictPort: true,
   },
 });

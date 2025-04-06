@@ -1,15 +1,14 @@
 import './App.css';
-// import Cesium from './components/Cesium';
 import Layout from './components/Layout';
 import NaverMapComponent from './components/NaverMap';
+import { CctvProvider } from './provider/CctvProvider';
 
 function App() {
   return (
-    <>
+    <CctvProvider>
       <Layout />
       <NaverMapComponent />
-      {/* <Cesium /> */}
-    </>
+    </CctvProvider>
   );
 }
 
